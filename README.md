@@ -1,50 +1,63 @@
-# 📚 StudySwap
+🛡️ AI-Powered Real-Time Phishing Website Detector
+Real-time phishing website detection using Machine Learning with automatic browser protection.
 
-StudySwap is a student-focused platform to share notes, exchange books, and solve doubts.  
-It helps students learn, collaborate, and save money by reusing study resources.
+Project Banner Python Flask Accuracy
 
----
+📋 Table of Contents
+Overview
+Features
+Technology Stack
+Project Structure
+Installation
+Usage
+Model Performance
+Screenshots
+Team
+License
+🎯 Overview
+Phishing attacks are one of the most dangerous cyber threats, causing billions in financial losses annually. This project implements an AI-powered real-time phishing detection system that automatically protects users while browsing.
 
-## 🚀 Features
-
-### 📖 Books Marketplace
-- Buy, sell, or donate books
-- Smart price suggestion
-- Quantity management
-- Seller contact details
-- Order system with delivery date
-
-### 📚 Notes Sharing
-- Upload and download free PDF notes
-- Notes types (Handwritten, Short Notes, Important Questions, Revision Notes)
-- Search and filter by class, subject, and type
-
-### 🤖 AI Chatbot
-- Helps with doubts and general questions
-- Provides study-related guidance
-- App usage support
-
-### 📦 Order System
-- Track orders (My Orders section)
-- Automatic quantity update
-- Seller notifications
-- Delivery time estimation
-
-### 🗺️ Map Integration
-- Find nearby available books
-- Interactive map with markers
-
-### 🎨 UI/UX
-- Clean and modern design
-- Responsive (mobile, tablet, desktop)
-- Light & Dark mode
-- Smooth animations and hover effects
-
----
-
-## 🛠️ Tech Stack
-
-- Frontend: HTML, CSS, JavaScript
-- UI Tool: figma
-- (Optional) Backend: Node.js / Firebase
-- (Optional) AI: OpenAI / Gemini API
+Key Highlights:
+✅ 96.8% Accuracy on 235K URL dataset
+✅ Real-time Protection via Chrome extension
+✅ Automatic Detection - No manual checking needed
+✅ Indian Domain Support - Government & banking sites
+✅ Instant Warnings - Visual alerts and notifications
+✨ Features
+🔒 Security Features
+Automatic URL Scanning - Every website checked in real-time
+Visual Warnings - Red banner alerts for phishing sites
+Desktop Notifications - System-level threat alerts
+Badge Indicators - Quick visual status on extension icon
+Smart Caching - Avoid re-checking same URLs (1-hour cache)
+🧠 Machine Learning Features
+50+ Features Analyzed - URL structure, webpage content, security indicators
+Random Forest Algorithm - Ensemble learning for high accuracy
+Feature Importance - Understand what makes sites suspicious
+Confidence Scores - Percentage-based threat assessment
+Adaptive Learning - Regular model updates possible
+🌐 User Features
+One-Click Manual Check - Extension popup for detailed analysis
+Risk Level Classification - Very Low, Low, Medium, High, Very High
+Trusted Domain Whitelist - Pre-approved safe sites
+Government Domain Support - Auto-trust .gov.in, .edu.in, etc.
+HTTPS Preference - Boost secure connections
+🛠️ Technology Stack
+Backend
+Language: Python 3.8+
+Framework: Flask 3.0
+ML Library: scikit-learn 1.3.2
+Data Processing: pandas, numpy
+Web Scraping: BeautifulSoup4, Requests
+Frontend
+Browser Extension: Chrome Extension API (Manifest V3)
+UI: HTML5, CSS3, JavaScript (ES6)
+Notifications: Chrome Notifications API
+Storage: Chrome Storage API
+Dataset
+Name: PhiUSIIL Phishing URL Dataset
+Size: 235,795 URLs
+Legitimate URLs: 134,850 (57.2%)
+Phishing URLs: 100,945 (42.8%)
+Features: 54 attributes (50 used after preprocessing)
+Source: Kaggle
