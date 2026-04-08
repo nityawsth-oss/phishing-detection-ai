@@ -9,20 +9,6 @@ Real-time phishing website detection using Machine Learning with automatic brows
 
 ---
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Performance](#model-performance)
-- [Screenshots](#screenshots)
-- [Team](#team)
-- [License](#license)
-
----
-
 ## 🎯 Overview
 
 Phishing attacks are one of the most dangerous cyber threats, causing billions in financial losses annually. This project implements an **AI-powered real-time phishing detection system** that automatically protects users while browsing.
