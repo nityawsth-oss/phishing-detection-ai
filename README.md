@@ -1,5 +1,4 @@
-# 🛡️ AI-Powered Real-Time Phishing Website Detector
-
+# 🛡️ PhishGuard AI
 Real-time phishing website detection using Machine Learning with automatic browser protection.
 
 ![Project Banner](https://img.shields.io/badge/AI-Phishing%20Detector-blue)
